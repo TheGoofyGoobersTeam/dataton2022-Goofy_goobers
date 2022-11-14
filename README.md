@@ -11,8 +11,7 @@ para el categorizador utilizaremos dos algoritmos uno de deteccion de fake news 
 
 ## Cliente o Sector
 para terminar el categorizaddor utilizaremos el notebook [src/recomendador/Cliente_y_Recomendacion.ipynb][RecCod] en la primera parte de este notebook encontramos una puntuacion que le llamaremos Acercamiento de cliente con el cual podemos diferenciar cada para Nit-Noticia si es cliente o sector, los resultados de esto los encontramos en :
- 
- [src/data/output/categorizacion.csv][CatRes]
+[src/data/output/categorizacion.csv][CatRes]
 
 ## Recomendador
 Para el recomendador tambien utilizaremos el notebook [src/recomendador/Cliente_y_Recomendacion.ipynb][RecCod] el cual en la segunda parte utilizaremos la siguiente ecuacion:
