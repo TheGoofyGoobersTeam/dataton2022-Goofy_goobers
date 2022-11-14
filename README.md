@@ -15,7 +15,7 @@ para terminar el categorizaddor utilizaremos el notebook [src/recomendador/Clien
 Para el recomendador tambien utilizaremos el notebook [src/recomendador/Cliente_y_Recomendacion.ipynb][RecCod] el cual en la segunda parte utilizaremos la siguiente ecuacion:
 
 \begin{equation}\label{etiqueta:uno}
-Puntaje = Probalidad \  de\ la\ clase * Peso\;de\;la\;clase + Acercamiento\;de\;cliente
+Puntaje = Probalidad \  de\ la\ clase * Peso\ de\ la\ clase + Acercamiento\ de\ cliente
 \end{equation}
 
   
