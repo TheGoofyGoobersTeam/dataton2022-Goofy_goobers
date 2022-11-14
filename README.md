@@ -6,10 +6,20 @@ para el categorizador utilizaremos dos algoritmos uno de deteccion de fake news 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7317351.svg)](https://doi.org/10.5281/zenodo.7317351)
 
-EL resultado final de la categorizacion se puede encontrar en [src/data/output/categorizacion.csv][CatRes]
+## Cliente o Sector
+para terminar el categorizaddor utilizaremos el notebook [src/recomendador/Cliente_y_Recomendacion.ipynb][RecCod] en la primera parte de este notebook encontramos una puntuacion que le llamaremos Acercamiento de cliente con el cual podemos diferenciar cada para Nit-Noticia si es cliente o sector, los resultados de esto los encontramos en :
+ 
+ [src/data/output/categorizacion.csv][CatRes]
+
+## Recomendador
+Para el recomendador tambien utilizaremos el notebook [src/recomendador/Cliente_y_Recomendacion.ipynb][RecCod] el cual en la segunda parte utilizaremos la siguiente ecuacion:
+\begin{equation} Puntaje = Probalidad de la clase * Peso de la clase + Acercamiento de cliente\end{equation}
+
+  
 
 
 
    [DocDat]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/documentaci%C3%B3n/Documentaci%C3%B3n_Datat%C3%B3n.pdf>
    [CatCod]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/recomendador/Categorizacion.ipynb>
    [CatRes]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/data/output/categorizacion.csv>
+   [RecCod]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/recomendador/Cliente_y_Recomendacion.ipynb>
