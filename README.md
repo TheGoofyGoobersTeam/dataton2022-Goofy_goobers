@@ -1,6 +1,9 @@
 # dataton2022-Goofy_goobers
  Proyecto Dataton 2022 Bancolombia en el cual tenemos dos procesos un categorizador y un recomendador de noticias
  
+## Uso
+Los notebooks usados en este repositorio se ejecutaron usando colab pro con GPU, por lo cual si se desea usar de esta forma solo se nesesita cambiar las direcciones de guardado de los archivos, en caso de correr estos archivos localmente se puede desccargar o clonar el repositorio e instalar las librerias usando el archivo [src/data/archivos_auxiliares/requirements.txt][requirements].
+ 
 ## Categorizador
 para el categorizador utilizaremos dos algoritmos uno de deteccion de fake news y un zero-shot algoritm para poder clasificar la informacion para mas informacion de esto revisar [documentación/Documentación_Datatón.pdf][DocDat], y el codigo utilizado fue ejecutado inicialmente en colab con gpu y se puede encontrar en [src/recomendador/Categorizacion.ipynb][CatCod], este utiliza los archivos auxiliares que por motivos de peso no se encuentran en el repositorio por lo cual se creo un repositorio de zenodo en el cual se encuentran y es el siguiente:
 
@@ -18,6 +21,8 @@ Para el recomendador tambien utilizaremos el notebook [src/recomendador/Cliente_
 Puntaje = Probalidad \  de\ la\ clase * Peso\ de\ la\ clase + Acercamiento\ de\ cliente
 \end{equation}
 
+Con este puntaje se organizan las recomendaciones de noticias por cliente y este se puede ver con la estructura deseada en el archivo:
+[src/data/output/recomendacion.csv][RecRes]
   
 
 
@@ -26,3 +31,5 @@ Puntaje = Probalidad \  de\ la\ clase * Peso\ de\ la\ clase + Acercamiento\ de\ 
    [CatCod]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/recomendador/Categorizacion.ipynb>
    [CatRes]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/data/output/categorizacion.csv>
    [RecCod]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/recomendador/Cliente_y_Recomendacion.ipynb>
+   [requirements]:<https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/data/archivos_auxiliares/requirements.txt>
+   [RecRes]: <https://github.com/TheGoofyGoobersTeam/dataton2022-Goofy_goobers/blob/main/src/data/output/recomendacion.csv>
